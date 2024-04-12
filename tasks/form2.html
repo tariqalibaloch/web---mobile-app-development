@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body style="background-color: aqua;">
+    <center>
+        <form>
+            <h1>Novell Services Login</h1>
+            <table>
+                <tr>
+                    <td>
+                        Username: 
+                    </td>
+                    <td>
+                        <input type="text" required size="20" maxlength="20" name="uname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password" required size="20" maxlength="20" name="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        City of <br /> Employment:
+                    </td>
+                    <td>
+                        <input type="text" size="20" maxlength="20" name="city" />
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        Web Server:
+                    </td>
+                    <td>
+                        <select name="Web Server">
+                            <option value="-Choose a Server-">-Choose a Server-</option>
+                            <option value="Application Server">Application Server</option>
+                            <option value="Mail Server">Mail Server</option>
+                            <option value="DNS Server">DNS Server</option>
+                            <option value="Communication Server">Communication Server</option>
+                            <option value="Proxy Server">Proxy Server</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        Please specify <br/> your role:
+                    </td>
+                    <td>
+                        <input type="radio" name="role" value="Admin" />Admin <br/>
+                        <input type="radio" name="role" value="Engineer" />Engineer <br/>
+                        <input type="radio" name="role" value="Manager" />Manager <br/>
+                        <input type="radio" name="role" value="Guest" />Guest
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        Single Sign-on <br/> to the following:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Mail" value="Mail">Mail <br/>
+                        <input type="checkbox" name="Payroll" value="Payroll">Payroll <br/>
+                        <input type="checkbox" name="Self-service" value="Self-service">Self-service
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="Login" value="Login">
+                        &emsp;
+                        <input type="reset" name="Reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
